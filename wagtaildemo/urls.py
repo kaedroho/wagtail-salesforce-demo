@@ -23,6 +23,9 @@ admin.autodiscover()
 from wagtail.wagtailsearch import register_signal_handlers as wagtailsearch_register_signal_handlers
 wagtailsearch_register_signal_handlers()
 
+from wagtailsalesforce.signal_handlers import register_signal_handlers as sf_register_signal_handlers
+sf_register_signal_handlers()
+
 
 urlpatterns = patterns('',
     url(r'^django-admin/', include(admin.site.urls)),

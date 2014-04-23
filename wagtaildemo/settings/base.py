@@ -162,6 +162,7 @@ INSTALLED_APPS = (
     'wagtail.wagtailredirects',
 
     'demo',
+    'wagtailsalesforce',
 )
 
 EMAIL_SUBJECT_PREFIX = '[wagtaildemo] '
