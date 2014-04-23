@@ -38,3 +38,12 @@ SECRET_KEY = 'enter-a-long-unguessable-string-here'
 # import os
 # PATH_TO_WAGTAIL = os.path.join(os.path.dirname(__file__), '..', '..', '..', 'wagtail')
 # sys.path.insert(1, PATH_TO_WAGTAIL)
+
+
+# Salesforce settings
+
+SALESFORCE_INSTANCE_URL = 'https://cs9.salesforce.com'
+SALESFORCE_USERNAME = ''
+SALESFORCE_PASSWORD = ''
+SALESFORCE_TOKEN = ''
+SALESFORCE_SANDBOX = True
